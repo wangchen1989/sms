@@ -1,0 +1,12 @@
+TestSmsData:
+  test_sms_001:
+    send: "123"
+    expect: "123"
+  test_sms_002:
+    send: "hello"
+    expect: "hello"
+  test_sms_003:
+    send: "#!!"
+    expect: "#!!"
+
+# [("123","123"),("hello","hello"),("#!!","#!!")]
